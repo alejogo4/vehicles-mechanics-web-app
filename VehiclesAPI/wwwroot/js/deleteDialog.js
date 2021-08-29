@@ -8,6 +8,7 @@
     var item_to_delete;
 
     function openModal(modalName, classOrId, sourceEvent, deletePath, eventClassOrId) {
+        console.log(modalName, classOrId, sourceEvent, deletePath, eventClassOrId);
         var textEvent;
         if (classOrId) {
             textEvent = "." + modalName;

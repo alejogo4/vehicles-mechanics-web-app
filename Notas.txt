@@ -1,0 +1,2 @@
+Add-Migration InitialCreate  correr entity model
+Update-Database subir BD
